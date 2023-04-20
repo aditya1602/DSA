@@ -8,13 +8,11 @@ int main(){
     int i=1;
     while (i<=n)
     {   
-        int j=1;
-        int k=i;
-        while (j<=i)
+        int j=i;    
+        while (j<2*i)
         {   
-            cout<<k<<" ";
-            j++;
-            k++;   
+            cout<<j<<" ";
+            j++;  
         }
         i++;
         cout<<endl;
